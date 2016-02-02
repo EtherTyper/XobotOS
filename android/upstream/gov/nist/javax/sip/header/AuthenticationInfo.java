@@ -218,7 +218,6 @@ public final class AuthenticationInfo
                 || name.equalsIgnoreCase(ParameterNames.OPAQUE)
                 || name.equalsIgnoreCase(ParameterNames.USERNAME)
                 || name.equalsIgnoreCase(ParameterNames.DOMAIN)
-                || name.equalsIgnoreCase(ParameterNames.NEXT_NONCE)
                 || name.equalsIgnoreCase(ParameterNames.RESPONSE_AUTH)) {
                 if (value == null)
                     throw new NullPointerException("null value");
