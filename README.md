@@ -1,9 +1,7 @@
-XobotOS project
+XobotOS Updated
 ===============
 
-XobotOS is a Xamarin research project that explored porting Android
-4.0 from Java/Dalvik to C# to explore the performance and memory
-footprint benefits of C#.
+XobotOS was an extermely useful Xamarin research project that explored porting Android 4.0 from Java/Dalvik to C# to explore the performance and memory footprint benefits of C#, and the inspiration for Updated builds. XobotOS Updated is an unofficial continuation of the project, attempting to use similar updated tools to port Android Marshmallow (6.0) to C# on .NET Core. Contributions are welcome using the GitHub pull request system.
 
 XobotOS is a semi-automated port of the Android 4.0 source code from
 Java to C#.  The automated parts were ported using an improved version
