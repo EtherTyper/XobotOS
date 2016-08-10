@@ -3,7 +3,7 @@ XobotOS Updated
 
 XobotOS was an extermely useful Xamarin research project that explored porting Android 4.0 from Java/Dalvik to C# to explore the performance and memory footprint benefits of C#, and the inspiration for Updated builds. XobotOS Updated is an unofficial continuation of the project, attempting to use similar updated tools to port Android Marshmallow (6.0) to C# on .NET Core. Contributions are welcome using the GitHub pull request system.
 
-XobotOS Updated is a semi-automated port of the Android Marshmallow source code from a custom implementation of Java 6 to C#.  The automated parts were ported using an improved version of Sharpen developed by Xamarin that can compile more advanced Java constructs and supports generics.  Most of the manual bits of code fall in two categories:
+XobotOS Updated is a semi-automated port of the Android Marshmallow source code from a custom implementation of Java 6 and Java 8 (Jack) to C#.  The automated parts were ported using an improved version of Sharpen, originally developed by the Xamarin team, that can compile more advanced Java constructs and supports generics.  Most of the manual bits of code fall in two categories:
 
 - (a) code to integrate with the host operating system and
 - (b) replace the Java JNI code used to call into C, with the ECMA CLI P/Invoke functionality.
