@@ -62,11 +62,3 @@ This modified version of Sharpen can cope with the following enhancements:
 
 Documentation on the improved Sharpen engine will be posted in the
 future so other developers can more easily port Java code to C#.
-
-Support 
-=======
-
-This code is provided as-is, and we do not offer support for any bits
-of code here, nor does Xamarin plan on continuing evolving XobotOS at
-this point.
-
